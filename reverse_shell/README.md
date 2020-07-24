@@ -9,4 +9,4 @@
 
 >If you want to get one line reverse shell quickly then this script really helpful. 
 
->you can also edit [this](https://raw.githubusercontent.com/S-Rajkumar/My_Scripting_Tools/master/reverse_shell/reverse_shell_generator.py) script for your convinent to remove junk history
+>you can also edit [this](https://raw.githubusercontent.com/S-Rajkumar/My_Scripting_Tools/master/reverse_shell/reverse_shell_generator.py) script for your convinent to get one line reverse shell quickly.

@@ -1,1 +1,0 @@
-print("asciinemo demo") 

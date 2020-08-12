@@ -1,7 +1,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="asciinema-player.css" />
-  <script type="text/javascript" src="asciinema-player.js"></script>
+  <script async src="asciinema-player.js" charset="utf-8"></script>
 </head>
 <body>
   <h1>asciinema demo</h1>

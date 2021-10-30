@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>udmnxpdu</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <script type="text/javascript">
+        var isUserAllowedGeoLocation = false;
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  }
+}
+
+function showPosition(position) {
+  isUserAllowedGeoLocation = true;
+  console.log("Location");
+  console.log("lat : " + position.coords.latitude);
+  console.log("long : " + position.coords.longitude);
+  const xhttp = new XMLHttpRequest();
+  xhttp.open("GET", "getLocation?lat=" + position.coords.latitude + "&long=" + position.coords.longitude, true);
+  xhttp.setRequestHeader("Content-Type", "text/html; charset=utf-8");
+  xhttp.send();
+}
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+  getLocation();
+});
+        </script>
+    </head>
+    <body>
+        <center><h1>Hello</h1></center>
+    </body>
+</html>
